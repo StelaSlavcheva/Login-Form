@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Poppins;
+    font-size: 16px;
+    height: 100%;
+    background: linear-gradient(rgb(8 11 8 / 45%), rgb(1 19 1 / 64%)), url(./image.png);
+    ,
+    url(./image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    /* border: 4px solid rgb(30, 28, 148); */
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding-top: 10rem;
+    /* border: 4px solid red; */
+}
+
+h1 {
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(9 230 100);
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    /* border: 4px solid rgb(152, 224, 17); */
+}
+
+.txt-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    position: relative;
+    border-bottom: 1px solid silver;
+    padding: 15px;
+    background-color: white;
+    /* border: 4px solid rgb(57, 15, 155); */
+}
+
+#div-btn {
+    justify-content: center;
+}
+
+input {
+    /* border-bottom: 1px solid rgb(216, 61, 126); */
+    color: silver;
+    font-size: 22px;
+    padding-left: 25px;
+    border: none;
+}
+
+i {
+    font-size: 30px;
+    float: left;
+    padding: 0 25px;
+    color: rgb(9 230 100);
+}
+
+form:last-child {
+    justify-content: center;
+}
+
+button {
+    width: 50%;
+    height: 46px;
+    background-color: rgb(9 230 100);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+}
